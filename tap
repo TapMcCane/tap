@@ -1,0 +1,13 @@
+/* Replace PS4 controller base with your custom PNG */
+.controller.ps4 .body {
+  background-image: url("https://i.imgur.com/zNJqQyE.png") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+/* Hide original carbon fiber texture */
+.controller.ps4 .body::before,
+.controller.ps4 .body::after {
+  display: none !important;
+}
