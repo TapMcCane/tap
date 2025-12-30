@@ -1,15 +1,16 @@
-/* Force replace PS4 controller base */
-.controller.ps4 {
-  background-image: url("https://i.imgur.com/zNJqQyE.png") !important;
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
-  background-position: center !important;
+/*BEGIN PS4 Controller Styling*/
+.controller.ds4 {
+    background: url(https://imgur.com/sSqhqFC.png);
+    height: 599px;
+    width: 806px;
+    /*    margin-left: -404px;
+        margin-top: -280px;*/
 }
 
-/* Hide original carbon fiber base layers */
-.controller.ps4 .body,
-.controller.ps4 .base,
-.controller.ps4 svg {
-  background: none !important;
-  fill: none !important;
+
+.ds4 .stick {
+    position: absolute;
+    background: url(https://imgur.com/nPrJvui.png);
+    height: 94px;
+    width: 94px;
 }
